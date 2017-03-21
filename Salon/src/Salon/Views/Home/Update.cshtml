@@ -1,0 +1,20 @@
+﻿@model UpdateClientViewModel
+
+<form asp-action="Update" asp-controller="Home" method="Post">
+    <div asp-validation-summary="ModelOnly"></div>
+    <div>
+        <label asp-for="Name">Name:</label>
+        <input asp-for="Name" value="@Model.Name" />
+        <span asp-validation-for="Name"></span>
+    </div>
+    <div>
+        <label asp-for="Dob">Dob:</label>
+        <input asp-for="Dob" value="@Model.Dob" />
+        <span asp-validation-for="Dob"></span>
+    </div>
+    <div>
+        <label asp-for="Contact">Contact:</label>
+        <select asp-for="Contact" asp-items="@Html.GetEnumSelectList(typeof(ContactType))" value="@Model.Contact"></select>
+    </div>
+    <button type="submit">Update</button>
+</form>

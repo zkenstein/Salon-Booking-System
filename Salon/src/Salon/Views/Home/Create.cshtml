@@ -1,0 +1,22 @@
+﻿@model CreateClientViewModel
+
+<form asp-controller="Home" asp-action="Create" method="Post">
+    <div asp-validation-summary="ModelOnly"></div>
+    <div>
+        <label asp-for="Name">Name:</label>
+        <input asp-for="Name" />
+        <span asp-validation-for="Name"></span>
+    </div>
+    <div>
+        <label asp-for="Dob">Date of Birth:</label>
+        <input asp-for="Dob"/>
+        <span asp-validation-for="Dob"></span>
+    </div>  
+    <div>
+        <label asp-for="Contact">
+            <select asp-for="Contact" asp-items="@Html.GetEnumSelectList(typeof(ContactType))"></select>
+        </label>
+    </div>
+    <input type="submit" value="Add" />
+</form>
+

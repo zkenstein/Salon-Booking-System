@@ -1,0 +1,16 @@
+﻿@model Salon.ViewModels.DisplayAllViewModel
+
+<table border="1">
+    @foreach (var item in Model.ClientList)
+    {
+        <tr>
+            <td>@item.ClientId</td>
+            <td>@item.Name</td>
+            <td>@Html.ActionLink("More info", "Details", "Home", new {id = item.ClientId })</td>
+            
+
+        </tr >
+    }
+
+</table>
+@Html.ActionLink("ADD","Create", "Home")
