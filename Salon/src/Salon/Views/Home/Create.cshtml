@@ -17,6 +17,16 @@
             <select asp-for="Contact" asp-items="@Html.GetEnumSelectList(typeof(ContactType))"></select>
         </label>
     </div>
+    <div>
+        <label asp-for="Mobile">Mobile:</label>
+        <input asp-for="Mobile" />
+        <span asp-validation-for="Mobile"></span>
+    </div>
+    <div>
+        <label asp-for="Email">Email:</label>
+        <input asp-for="Email" />
+        <span asp-validation-for="Email"></span>
+    </div>
     <input type="submit" value="Add" />
 </form>
 

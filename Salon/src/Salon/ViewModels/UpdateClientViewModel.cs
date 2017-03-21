@@ -14,5 +14,7 @@ namespace Salon.ViewModels
         [Required]
         public string Dob { get; set; }
         public ContactType Contact { get; set; }
+        public long? Mobile { get; set; }
+        public string Email { get; set; }
     }
 }

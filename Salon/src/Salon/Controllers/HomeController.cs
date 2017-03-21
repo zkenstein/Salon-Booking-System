@@ -36,8 +36,9 @@ namespace Salon.Controllers
             vm.ClientId = client.ClientId;
             vm.Name = client.Name;
             vm.Dob = client.Dob.ToString("dd,MM,yyyy");
-            vm.Contact = client.Contact;            
-
+            vm.Contact = client.Contact;
+            vm.Mobile = client.Mobile;
+            vm.Email = client.Email;
             return View(vm);
         }
 
@@ -57,7 +58,9 @@ namespace Salon.Controllers
                 {
                     Name = vm.Name,
                     Dob = vm.Dob,
-                    Contact = vm.Contact
+                    Contact = vm.Contact,
+                    Mobile = vm.Mobile,
+                    Email = vm.Email
                 };
                 _dataservice.addClient(newClient);
                 return RedirectToAction("Index");
@@ -73,7 +76,9 @@ namespace Salon.Controllers
             {
                 Name = updateClient.Name,
                 Dob = updateClient.Dob.ToString("dd,MM,yyyy"),
-                Contact = updateClient.Contact
+                Contact = updateClient.Contact,
+                Mobile = updateClient.Mobile,
+                Email = updateClient.Email
             };
             return View(vm);
         }
@@ -87,6 +92,8 @@ namespace Salon.Controllers
                 client.Name = vm.Name;
                 client.Dob = DateTime.Parse(vm.Dob);
                 client.Contact = vm.Contact;
+                client.Mobile = vm.Mobile;
+                client.Email = vm.Email;
                 _dataservice.updateClient();
                 return RedirectToAction("Details", new {id=client.ClientId });
             }

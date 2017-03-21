@@ -16,5 +16,9 @@ namespace Salon.ViewModels
 
         [Required]
         public DateTime Dob { get; set; }
+
+        public long Mobile { get; set; }
+
+        public string Email { get; set; }
     }
 }

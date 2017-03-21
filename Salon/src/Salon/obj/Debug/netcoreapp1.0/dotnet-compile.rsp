@@ -1,5 +1,5 @@
---temp-output:E:\Coding\Tafe\Diploma\Alan_Dips1\Practise\Salon\src\Salon\obj\Debug\netcoreapp1.0\
---out:E:\Coding\Tafe\Diploma\Alan_Dips1\Practise\Salon\src\Salon\bin\Debug\netcoreapp1.0\Salon.dll
+--temp-output:E:\Coding\Projects\Salon-Booking-System\Salon\src\Salon\obj\Debug\netcoreapp1.0\
+--out:E:\Coding\Projects\Salon-Booking-System\Salon\src\Salon\bin\Debug\netcoreapp1.0\Salon.dll
 --define:DEBUG
 --define:TRACE
 --define:NETCOREAPP1_0
@@ -165,14 +165,14 @@
 --reference:C:\Users\Joe Bonifacio\.nuget\packages\System.Threading.Timer\4.0.1\ref\netstandard1.2\System.Threading.Timer.dll
 --reference:C:\Users\Joe Bonifacio\.nuget\packages\System.Xml.ReaderWriter\4.0.11\ref\netstandard1.3\System.Xml.ReaderWriter.dll
 --reference:C:\Users\Joe Bonifacio\.nuget\packages\System.Xml.XDocument\4.0.11\ref\netstandard1.3\System.Xml.XDocument.dll
---resource:"E:\Coding\Tafe\Diploma\Alan_Dips1\Practise\Salon\src\Salon\obj\Debug\netcoreapp1.0\Salondotnet-compile.deps.json",Salon.deps.json
-E:\Coding\Tafe\Diploma\Alan_Dips1\Practise\Salon\src\Salon\Program.cs
-E:\Coding\Tafe\Diploma\Alan_Dips1\Practise\Salon\src\Salon\Startup.cs
-E:\Coding\Tafe\Diploma\Alan_Dips1\Practise\Salon\src\Salon\Controllers\HomeController.cs
-E:\Coding\Tafe\Diploma\Alan_Dips1\Practise\Salon\src\Salon\Models\Client.cs
-E:\Coding\Tafe\Diploma\Alan_Dips1\Practise\Salon\src\Salon\Services\DataService.cs
-E:\Coding\Tafe\Diploma\Alan_Dips1\Practise\Salon\src\Salon\Services\IDataService.cs
-E:\Coding\Tafe\Diploma\Alan_Dips1\Practise\Salon\src\Salon\ViewModels\CreateClientViewModel.cs
-E:\Coding\Tafe\Diploma\Alan_Dips1\Practise\Salon\src\Salon\ViewModels\DetailsViewModel.cs
-E:\Coding\Tafe\Diploma\Alan_Dips1\Practise\Salon\src\Salon\ViewModels\DisplayAllViewModel.cs
-E:\Coding\Tafe\Diploma\Alan_Dips1\Practise\Salon\src\Salon\ViewModels\UpdateClientViewModel.cs
+--resource:"E:\Coding\Projects\Salon-Booking-System\Salon\src\Salon\obj\Debug\netcoreapp1.0\Salondotnet-compile.deps.json",Salon.deps.json
+E:\Coding\Projects\Salon-Booking-System\Salon\src\Salon\Program.cs
+E:\Coding\Projects\Salon-Booking-System\Salon\src\Salon\Startup.cs
+E:\Coding\Projects\Salon-Booking-System\Salon\src\Salon\Controllers\HomeController.cs
+E:\Coding\Projects\Salon-Booking-System\Salon\src\Salon\Models\Client.cs
+E:\Coding\Projects\Salon-Booking-System\Salon\src\Salon\Services\DataService.cs
+E:\Coding\Projects\Salon-Booking-System\Salon\src\Salon\Services\IDataService.cs
+E:\Coding\Projects\Salon-Booking-System\Salon\src\Salon\ViewModels\CreateClientViewModel.cs
+E:\Coding\Projects\Salon-Booking-System\Salon\src\Salon\ViewModels\DetailsViewModel.cs
+E:\Coding\Projects\Salon-Booking-System\Salon\src\Salon\ViewModels\DisplayAllViewModel.cs
+E:\Coding\Projects\Salon-Booking-System\Salon\src\Salon\ViewModels\UpdateClientViewModel.cs
