@@ -11,11 +11,12 @@ namespace Salon.Models
         public string Name { get; set; }
         public DateTime Dob { get; set; }
         public ContactType Contact { get; set; }
+        public long? Mobile { get; set; }
+        public string Email { get; set; }
     }
 
     public enum ContactType
     {
-        MOBILE,
         SMS,
         EMAIL
     } 
